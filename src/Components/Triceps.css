@@ -1,0 +1,43 @@
+.angle{
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    background-color: whitesmoke;
+
+}
+
+.angle{
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, white, rgb(80, 79, 73)) ;
+    border: 2px solid; /* Add a solid border */
+    border-image: red;
+    border-image-slice: 1;
+
+}
+
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .camera-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+  }
+  
+  #webcam-video, #pose-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
